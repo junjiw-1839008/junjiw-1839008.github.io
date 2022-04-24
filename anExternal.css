@@ -1,0 +1,78 @@
+body {
+  align-content: right;
+}
+
+#LeftNav {
+  width: 300px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  float: left;
+  border:solid 8px black;
+  padding-bottom: 8px;
+  border-radius:50px;
+  border-left-style: dotted;
+}
+
+
+#LeftNav p {
+  font-size: 30px;
+}
+
+#Content1 {
+  font-family: "Arial";
+  color:blue;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 5px;
+}
+
+#Content2 {
+  font-family: "Passion One";
+  color:red;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Content2 img {
+  width: 50px;
+  height: 50px;
+}
+
+#Content3 {
+  font-family: "Arial";
+  color:black;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Content3 p {
+  border-style: dotted;
+}
+
+#Content4 {
+  font-family: "Arial";
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+.center_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Content4 img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
